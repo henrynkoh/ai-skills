@@ -214,9 +214,9 @@ export default function Home() {
         </div>
       </main>
 
-      {/* Bottom-right GitHub link - set NEXT_PUBLIC_GITHUB_URL or use default */}
+      {/* Bottom-right GitHub link */}
       <GithubLink
-        href={process.env.NEXT_PUBLIC_GITHUB_URL || "https://github.com"}
+        href={process.env.NEXT_PUBLIC_GITHUB_URL || "https://github.com/henrynkoh/ai-skills"}
       />
     </div>
   );
